@@ -1,0 +1,63 @@
+{
+  "quick-links": {
+    "Media": {
+      "title": "",
+      "data": [
+        {
+          "name": "Press Releases",
+          "path": "https://www.aamc.org/news-insights/find-news?aamc_form=&keys=&go=Go&field_subtype_target_id=501&field_topic_target_id=All&node_external_publication_date=All"
+        },
+        {
+          "name": "In-Depth",
+          "path": "https://www.aamc.org/news-insights/depth"
+        },
+        {
+          "name": "Press Contacts",
+          "path": "https://www.aamc.org/news-insights/press-contacts"
+        }
+      ]
+    },
+    "Resources": {
+      "title": "",
+      "data": [
+        {
+          "name": "Store",
+          "path": "https://store.aamc.org/"
+        },
+        {
+          "name": "Help",
+          "path": "https://www.aamc.org/help"
+        },
+        {
+          "name": "Contact Us",
+          "path": "https://www.aamc.org/contact-us"
+        },
+        {
+          "name": "Jobs at AAMC",
+          "path": "https://aamc.wd5.myworkdayjobs.com/AAMC/jobs"
+        }
+      ]
+    },
+    "Quick Links": {
+      "title": "",
+      "data": [
+        {
+          "name": "Terms & Conditions",
+          "path": "https://www.aamc.org/website-terms-conditions"
+        },
+        {
+          "name": "Privacy Statement",
+          "path": "https://www.aamc.org/privacy"
+        },
+        {
+          "name": "Accessibility",
+          "path": "https://www.aamc.org/web-accessibility"
+        },
+        {
+          "name": "Go to New Website",
+          "path": "/home"
+        }
+      ]
+    }
+  }
+}

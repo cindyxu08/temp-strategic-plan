@@ -1,0 +1,22 @@
+{
+  "data": {
+    "path": "/goal-3",
+    "title": "Equip Medical Schools and Teaching Hospitals and Health Systems",
+    "order": 3,
+    "heroImageName": "startup-desk.jpg",
+    "parallax-heroImageName": "leaf.jpg",
+    "description": "Equip Medical Schools and Teaching Hospitals and Health Systems to Become More Inclusive, Equitable Organizations.",
+    "goals": [
+      {
+        "title": "sample_image",
+        "imageName": "taking-notes-and-working-on-laptop.jpg",
+        "text": "The AAMC will catalyze solutions for the biggest challenges facing medical schools, teaching hospitals and health systems, and the people and communities they serve."
+      },
+      {
+        "title": "sample_image",
+        "imageName": "four-students-study-flatlay.jpg",
+        "text": "The AAMC will shape the workforce and develop the people of academic medicine to lead and thrive in a changing health care environment."
+      }
+    ]
+  }
+}

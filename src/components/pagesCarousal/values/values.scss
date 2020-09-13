@@ -1,0 +1,33 @@
+@import "../../../styles/global.scss";
+@import "../../../styles/colors.scss";
+
+.values-container {
+  background-color: steelblue;
+  padding-top: 12%;
+  padding-bottom: 4em;
+  height: 100vh;
+}
+
+.values-text {
+  color: #fff;
+  text-align: center;
+  h2 {
+    @include mobile {
+      font-size: 20px;
+    }
+  }
+  p {
+    @include mobile {
+      padding: 5px;
+      font-size: 16px;
+    }
+  }
+}
+
+.img {
+  display: block;
+  text-align: center;
+  width: 3em;
+  height: 3em;
+  margin: auto;
+}

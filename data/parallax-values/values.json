@@ -1,0 +1,42 @@
+{
+  "data": {
+    "org_val": "ORGANIZATIONAL VALUES",
+    "org_desc": "The AAMC’s organizational values are the guiding principles for how AAMC staff will fulfill our mission, achieve our vision, and implement our strategic plan",
+    "aamc_desc": "The AAMC's strategic plan takes a clear-eyed perspective of the environment, defines priorities, sets common goals, establishes agreement around intended outcomes, and charts an effective course for the future.",
+    "mission_val": "MISSION",
+    "mission_desc": "The AAMC leads and serves academic medicine to improve the health of people everywhere",
+    "mission_img": "noun_Mission.png",
+    "vision_val": "VISION",
+    "vision_desc": "A healthier future through learning, discovery, health care, and community collaborations.",
+    "vision_img": "noun_Vision.png",
+    "innovation": [
+      {
+        "imageName": "noun_innovation.png",
+        "values": "Innovation and Discovery",
+        "description": "We recognize, investigate, understand, and solve new challenges and tough problems. We are a top-of-class innovative association. We are future-focused and learn from our successes and failures."
+      },
+      {
+        "imageName": "noun_equality.png",
+        "values": "Diversity, Equity, and Inclusion",
+        "description": "We are better because of our diversity. We honor and respect each other’s perspectives, experiences, talents, and potential. We strive for a culture where we can be our authentic selves, where we are validated for who we are and valued for what we contribute."
+      }
+    ],
+    "integrity": [
+      {
+        "imageName": "noun_integrity.png",
+        "values": "Integrity",
+        "description": "We do the right thing. We honor our word. We do what’s best for the health of people everywhere"
+      },
+      {
+        "imageName": "noun_Excellence.png",
+        "values": "Excellence",
+        "description": "We push ourselves to be our best. We deliver results. We continually strive for higher levels of quality, service, and impact."
+      },
+      {
+        "imageName": "noun_collaboration.png",
+        "values": "Collaboration",
+        "description": "We help each other succeed. We act with empathy. We work together with our members and the communities and people we serve."
+      }
+    ]
+  }
+}

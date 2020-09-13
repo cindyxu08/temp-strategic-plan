@@ -1,0 +1,68 @@
+@import "../../../styles/global.scss";
+@import "../../../styles/getstrap.scss";
+
+.parallax-footer {
+  .parallax-footer-top-section-wrapper {
+    position: relative;
+    .parallax-footer-top-section-background {
+      height: 740px;
+    }
+    .parallax-footer-logo {
+      width: max-content;
+      margin-left: 50%;
+      margin-top: 180px;
+      height: 163px;
+      width: 220px;
+      transform: translate(-50%, 0);
+      @include mobile {
+        margin-top: 100px;
+        height: 110px;
+        width: 170px;
+      }
+    }
+    .parallax-footer-top-section {
+      height: 740px;
+      width: 100%;
+      position: absolute;
+      top: 0;
+      backdrop-filter: blur(25px);
+    }
+  }
+
+  .parallax-footer-bottom-section {
+    height: 349px;
+    background: #171717 0% 0% no-repeat padding-box;
+
+    .parallax-footer-social-media-icons {
+      width: max-content;
+      position: relative;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      a {
+        color: white;
+        font-size: 38px;
+        margin: 0px 25px;
+        @include mobile {
+          font-size: 35px;
+          margin: 0px 15px;
+        }
+      }
+    }
+    .parallax-footer-social-media-icons {
+      a:hover {
+        color: gray;
+      }
+    }
+    .parallax-footer-newsletter {
+      width: 280px;
+      position: relative;
+      text-align: center;
+      padding: 14px;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      border: 2px solid white;
+    }
+  }
+}

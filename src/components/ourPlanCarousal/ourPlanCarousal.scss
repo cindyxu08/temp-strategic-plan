@@ -1,0 +1,90 @@
+@import "../../styles/global.scss";
+@import "../../styles/colors.scss";
+@import "../../styles/fonts.scss";
+
+.ourPlanCarousal {
+  h2 {
+    text-align: center;
+    padding-bottom: 15px;
+  }
+  width: 100%;
+  padding: 20px;
+  background-color: $black;
+  color: $gray-200;
+  font-family: $font-family-base;
+}
+
+.slider {
+  width: 80%;
+  height: 30vh;
+  margin: 0 auto;
+}
+.each-carousal {
+  padding-left: 2em;
+  padding-right: 1em;
+}
+
+.each-carousal-img img {
+  width: 95%;
+  height: 85%;
+  object-fit: cover;
+}
+.each-carousal:hover {
+  cursor: pointer;
+}
+.each-carousal-title {
+  width: 100%;
+  height: 80%;
+  text-align: center;
+  color: white;
+  padding: 15px;
+}
+.arrow {
+  position: absolute;
+  color: #000000;
+  font-size: 2.5em;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.nextArrow {
+  top: 2em;
+  right: -45px;
+  width: 40px;
+  height: 40px;
+}
+
+.prevArrow {
+  top: 2em;
+  left: -45px;
+  width: 40px;
+  height: 40px;
+}
+
+@include mobile {
+  .ourPlanCarousal {
+    font-size: $font-size-sm;
+  }
+}
+@include tablet {
+  .ourPlanCarousal {
+    font-size: $font-size-sm;
+  }
+}
+@include desktopsmall {
+}
+@include desktop {
+}
+@include desktoplarge {
+}
+@include desktopxtralarge {
+  .ourPlanCarousal {
+    font-size: $font-size-base;
+  }
+}
+.landingPage-video-foreground {
+  position: relative;
+  width: 17.5rem;
+  height: 11.4rem;
+  object-fit: cover;
+}

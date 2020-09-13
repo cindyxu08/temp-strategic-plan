@@ -1,0 +1,27 @@
+{
+  "data": {
+    "path": "/goal-4",
+    "title": "Increase Significantly the Number of Diverse Medical School Applicants and Matriculants",
+    "order": 4,
+    "heroImageName": "macbook-air-on-desk.jpg",
+    "parallax-heroImageName": "nature.jpg",
+    "description": "Increase Significantly the Number of Diverse Medical School Applicants and Matriculants.",
+    "goals": [
+      {
+        "title": "sample_image",
+        "imageName": "row-of-young-adults-at-work.jpg",
+        "text": "The AAMC will be a high-performing, diverse, and inclusive organization in support of our mission."
+      },
+      {
+        "title": "sample_image",
+        "imageName": "study-group.jpg",
+        "text": "The AAMC will be the voice of academic medicine."
+      },
+      {
+        "title": "sample_image",
+        "imageName": "woman-happy-leading-meeting.jpg",
+        "text": "This time in history will forever change society. The U.S. health care system will be radically altered in ways that we cannot yet fully realize."
+      }
+    ]
+  }
+}

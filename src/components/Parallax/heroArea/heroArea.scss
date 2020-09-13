@@ -1,0 +1,100 @@
+@import "../../../styles/global.scss";
+@import "../../../styles/colors.scss";
+@import "../../../styles/fonts.scss";
+
+.parallax-heroArea-bg {
+  background: #fee4c3 0% 0% no-repeat padding-box;
+}
+
+.parallax-hero-wrapper {
+  height: 100vh;
+  box-sizing: border-box;
+  h1 {
+    text-align: center;
+    font: Bold 60px/100px Perpetua Titling MT;
+    letter-spacing: 0px;
+    color: #5c535c;
+    text-transform: uppercase;
+    @include mobile {
+      font: Bold 30px/40px Perpetua Titling MT;
+    }
+  }
+
+  h2 {
+    text-align: center;
+    font: Bold 40px/80px Perpetua Titling MT;
+    letter-spacing: 0px;
+    color: #5c535c;
+    text-transform: uppercase;
+    @include mobile {
+      font: Bold 20px/30px Perpetua Titling MT;
+    }
+  }
+}
+
+.mount1,
+.mount2,
+.mount3,
+.mount4,
+.mount5 {
+  position: absolute;
+  width: 100%;
+}
+
+@include mobile {
+  .parallax-hero-wrapper {
+    height: 45vh;
+  }
+  .mount1 {
+    top: 4.8%;
+  }
+  .mount2 {
+    top: 6.2%;
+  }
+  .mount3 {
+    top: 6.3%;
+  }
+  .mount4 {
+    top: 8.1%;
+  }
+  .mount5 {
+    top: 8.8%;
+  }
+}
+
+@include tablet {
+  .mount1 {
+    top: 10%;
+  }
+  .mount2 {
+    top: 13%;
+  }
+  .mount3 {
+    top: 13%;
+  }
+  .mount4 {
+    top: 15%;
+  }
+  .mount5 {
+    top: 16%;
+  }
+}
+
+@media only screen and (min-width: 1050px) {
+  .mount1 {
+    top: 8%;
+  }
+  .mount2 {
+    top: 14.5%;
+    // left: 0.7%;
+  }
+  .mount3 {
+    top: 15.8%;
+  }
+  .mount4 {
+    top: 22%;
+  }
+  .mount5 {
+    top: 25%;
+  }
+}

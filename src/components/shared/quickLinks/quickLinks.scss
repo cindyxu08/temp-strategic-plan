@@ -1,0 +1,33 @@
+@import "../../../styles/global.scss";
+@import "../../../styles/getstrap.scss";
+
+.parallax-footer-links {
+  margin-left: 15%;
+  margin-top: 125px;
+  text-align: left;
+  .section-title {
+    font-weight: bold;
+    font-size: 18px;
+    color: wheat;
+    letter-spacing: 0.25px;
+    padding-bottom: 5px;
+  }
+
+  ul {
+    list-style: none;
+    margin-left: -40px;
+    li {
+      a {
+        color: white;
+      }
+    }
+  }
+  @include mobile {
+    margin-top: 50px;
+    text-align: center;
+    margin-left: 0px;
+  }
+}
+.parallax-footer-links ul li a:hover {
+  color: gray;
+}

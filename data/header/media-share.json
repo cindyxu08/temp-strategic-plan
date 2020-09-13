@@ -1,0 +1,32 @@
+{
+  "media-share": {
+    "facebook": {
+      "name": "Facebook",
+      "url": "http://facebook.com/aamctoday",
+      "icon": "facebook-f"
+    },
+    "twitter": {
+      "name": "Twitter",
+      "url": "http://twitter.com/aamctoday",
+      "title": "AAMC twitter",
+      "via": "@AAMCtoday",
+      "hashtags": ["AAMC", "AAMCtoday"],
+      "icon": "twitter"
+    },
+    "reddit": {
+      "name": "reddit",
+      "url": "https://www.reddit.com/domain/aamc.org/",
+      "title": "AAMC Today",
+      "icon": "reddit-alien"
+    },
+    "tumblr": {
+      "name": "Tumblr",
+      "url": "https://www.tumblr.com/tagged/aamc",
+      "title": "AAMC",
+      "tags": ["AAMC", "AAMCtoday"],
+      "caption": "Tomorrow's Doctors, Tomorrow's Cures",
+      "posttype": "link",
+      "icon": "tumblr"
+    }
+  }
+}

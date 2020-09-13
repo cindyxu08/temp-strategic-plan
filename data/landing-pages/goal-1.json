@@ -1,0 +1,28 @@
+{
+  "data": {
+    "_comment": "comment text goes here...",
+    "path": "/goal-1",
+    "title": "Strengthen the Medical Education Continuum",
+    "order": 1,
+    "heroImageName": "wrtiting-tools.jpg",
+    "parallax-heroImageName": "forest-top-view.jpg",
+    "videoId": "",
+    "description": "Strengthen the Medical Education Continuum for Transformed Health Care and Learning Environment.",
+    "goals": [
+      {
+        "title": "sample_image",
+        "imageName": "woman-taking-notes-during-team-meeting.jpg",
+        "text": "We recognize, investigate, understand, and solve new challenges and tough problems. We are a top-of-class innovative association. We are future-focused and learn from our successes and failures.",
+        "videoId": "",
+        "youtubeId": "SJXovaXXBBA"
+      },
+      {
+        "title": "sample_image",
+        "imageName": "woman-at-work-taking-notes.jpg",
+        "text": "We are better because of our diversity. We honor and respect each other’s perspectives, experiences, talents, and potential. We strive for a culture where we can be our authentic selves, where we are validated for who we are and valued for what we contribute.",
+        "videoId": "",
+        "youtubeId": ""
+      }
+    ]
+  }
+}

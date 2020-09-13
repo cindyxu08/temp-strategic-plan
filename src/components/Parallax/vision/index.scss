@@ -1,0 +1,106 @@
+@import "../../../styles/global.scss";
+@import "../../../styles/colors.scss";
+
+.visionBg {
+  background-color: black;
+  padding-top: 4em;
+  padding-bottom: 4em;
+}
+
+.valuesBg {
+  background-color: black;
+  padding-top: 4em;
+  padding-bottom: 4em;
+}
+
+.parallax-vision-text {
+  color: #fff;
+  text-align: center;
+  z-index: 2 !important;
+}
+
+.parallax-innovation-text {
+  margin: 2em 0 2em 0;
+  @include mobile {
+    margin-right: 1em;
+    margin-left: 1em;
+  }
+}
+
+.parallax-vision-logo {
+  width: 10em;
+  @include mobile {
+    margin-left: 7em;
+  }
+}
+
+.parallax-vision-org-left {
+  text-align: left;
+  margin-top: 3.5em;
+  @include mobile {
+    margin-right: 1em;
+    margin-left: 1em;
+    text-align: center;
+  }
+}
+
+.parallax-values-text {
+  color: #fff;
+  text-align: center;
+  z-index: 2 !important;
+  @include mobile {
+    margin-right: 1em;
+    margin-left: 1em;
+  }
+}
+
+.parallax-org-val {
+  h2 {
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+  @include mobile {
+    margin-right: 1em;
+    margin-left: 1em;
+  }
+}
+
+.parallax-values-hero-text {
+  h1 {
+    text-align: center;
+    font: Bold 40px/65px Montserrat;
+    letter-spacing: 0px;
+    color: #ffffff;
+    text-transform: uppercase;
+    opacity: 1;
+  }
+  p {
+    text-align: center;
+    font: Regular 28px/34px Perpetua;
+    letter-spacing: 0px;
+    color: #ffffff;
+    opacity: 1;
+  }
+}
+
+.parallax-img-mission {
+  display: block;
+  text-align: center;
+  width: 5em;
+  margin: auto;
+}
+
+.parallax-img-vision {
+  display: block;
+  text-align: center;
+  width: 2.6em;
+  margin: auto;
+}
+
+.parallax-img {
+  display: block;
+  text-align: center;
+  width: 3em;
+  height: 3em;
+  margin: auto;
+}

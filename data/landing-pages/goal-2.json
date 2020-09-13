@@ -1,0 +1,28 @@
+{
+  "data": {
+    "path": "/goal-2",
+    "title": "Extend AAMC’s Leadership Role",
+    "order": 2,
+    "videoId": "",
+    "heroImageName": "laptop-from-above.jpg",
+    "parallax-heroImageName": "small-mountain.jpg",
+    "description": "Extend AAMC’s Leadership Role in Helping Students Progress through their Medical Professional Journey.",
+    "goals": [
+      {
+        "title": "sample_image",
+        "imageName": "taking-notes-and-working-on-laptop.jpg",
+        "text": "We do the right thing. We honor our word. We do what’s best for the health of people everywhere."
+      },
+      {
+        "title": "sample_image",
+        "imageName": "four-students-study-flatlay.jpg",
+        "text": "We push ourselves to be our best. We deliver results. We continually strive for higher levels of quality, service, and impact."
+      },
+      {
+        "title": "sample_image",
+        "imageName": "brainstorm-meeting.jpg",
+        "text": "We help each other succeed. We act with empathy. We work together with our members and the communities and people we serve."
+      }
+    ]
+  }
+}

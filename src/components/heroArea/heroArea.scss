@@ -1,0 +1,43 @@
+@import "../../styles/global.scss";
+
+.heroArea {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  position: relative;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.heroArea-video-overlay {
+  margin-bottom: -0.35em;
+  height: 100vh;
+  width: 100%;
+  object-fit: cover;
+}
+
+.page-overlay {
+  position: absolute;
+  bottom: 15%;
+  width: 100%;
+  color: #ddd;
+  text-align: center;
+  h2 {
+    font-size: 3em;
+    padding: 5px;
+    @include mobile {
+      font-size: 1.7em;
+    }
+  }
+  .arrow {
+    left: 50%;
+    margin-top: 2%;
+    transform: translate(-50%, 0);
+    @include mobile {
+      margin-top: 7%;
+    }
+  }
+}

@@ -1,0 +1,66 @@
+@import "../../../styles/global.scss";
+
+.img-left {
+  margin: 20px 20px 20px 20px;
+  width: 90%;
+  object-fit: cover;
+}
+.img-right {
+  margin: 20px 20px 20px 20px;
+  width: 90%;
+  float: right;
+  object-fit: cover;
+}
+.img-text {
+  font-size: 2rem;
+  align-items: center;
+  display: flex;
+  height: 100%;
+  text-align: center;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 0;
+  padding: 5%;
+}
+@include mobile {
+  .img-text {
+    font-size: 1rem;
+    text-align: center;
+    position: static;
+  }
+  .img-right {
+    float: left;
+  }
+}
+@include tablet {
+  // .img-text{
+  //     font-size: 1rem;
+  //     align-items: center;
+  //     display: flex;
+  //     height: 100%;
+  //     justify-content: center;
+  //     position: none;
+  //     width:100%;
+  //     left:0;
+  //     top:0;
+  // }
+}
+.imageText-video-margin {
+  margin: 1em;
+}
+.imageText-video-foreground {
+  position: relative;
+  width: 30em;
+}
+
+.videoPlayer {
+  width: 90%;
+  margin: 20px;
+  @include mobile {
+    height: 200px;
+  }
+  @include tablet {
+    height: 330px;
+  }
+}

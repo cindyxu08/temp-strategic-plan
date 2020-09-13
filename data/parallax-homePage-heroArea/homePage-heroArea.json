@@ -1,0 +1,38 @@
+{
+  "data": {
+    "hero_name": "AAMC",
+    "hero_name_data_lax_translate_y": "0 0, vh 400",
+    "hero_name_data_lax_opacity": "0 1, 400 0, 450 0",
+    "hero_description": "STRATEGIC PLAN",
+    "hero_description_data_lax_translate_y": "0 0, vh 400",
+    "hero_description_data_lax_opacity": "0 1, 250 0, 250 0",
+    "parallax_images": [
+      {
+        "image_name": "Mount1.png",
+        "data-lax-translate-y": "0 0, 800 -700",
+        "image_order": "1"
+      },
+      {
+        "image_name": "Mount2.png",
+        "data-lax-translate-y": "0 0, 800 -1050",
+        "data-lax-translate-x": "0 0, vh -500",
+        "image_order": "2"
+      },
+      {
+        "image_name": "Mount3.png",
+        "data-lax-translate-y": "0 0, 800 -1000",
+        "image_order": "3"
+      },
+      {
+        "image_name": "Mount4.png",
+        "data-lax-translate-y": "0 0, 800 -1400",
+        "image_order": "4"
+      },
+      {
+        "image_name": "Mount5.png",
+        "data-lax-translate-y": "0 0, 800 -1600",
+        "image_order": "5"
+      }
+    ]
+  }
+}

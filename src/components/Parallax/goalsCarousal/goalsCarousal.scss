@@ -1,0 +1,129 @@
+@import "../../../styles/global.scss";
+@import "../../../styles/colors.scss";
+@import "../../../styles/fonts.scss";
+
+.goalsBg {
+  width: 2057px;
+  height: 1000px;
+  background: transparent
+    url("../../../images/parallax/goals-carousal/long-forest-path.png") 0% 0%
+    no-repeat padding - box;
+  opacity: 1;
+}
+.goalsContent {
+  top: 273px;
+}
+.goalsContent-first {
+  width: 61px;
+  font-size: 6rem;
+  text-align: left;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+.goalsContent-text {
+  // font-size: 2rem;
+  text-align: left;
+  color: #fff;
+  width: 610px;
+  font: Bold 35px/52px Garamond;
+  letter-spacing: 0px;
+
+  opacity: 1;
+}
+.goals-readmore {
+  width: 61px;
+  font-size: 1.2rem;
+  color: white;
+  padding: 10px;
+  border: 3px solid var(--unnamed-color-ffffff);
+  background: #4040404d 0% 0% no-repeat padding-box;
+  border: 3px solid #ffffff;
+  opacity: 1;
+}
+.goals-readmore:hover {
+  color: whitesmoke;
+}
+.goals-carousal {
+  margin-left: 80%;
+  margin-top: 40%;
+  width: 176px;
+  height: 205px;
+  background: #f45f5f 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+.goals-carousal-num {
+  color: var(--unnamed-color-ffffff);
+  text-align: left;
+  font: Bold 54px/145px Garamond;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+  margin-left: 25px;
+}
+// .arrow {
+//     border: solid #FFF;
+//     border-width: 0 3px 3px 0;
+//     display: inline-block;
+//     padding: 12px;
+//   }
+.goals-leftArrow {
+  left: 80% !important;
+  line-height: 350px !important;
+  top: 50% !important;
+}
+.wrapper {
+  margin-left: 15%;
+}
+.goals-rightArrow {
+  left: 87% !important;
+  line-height: 350px !important;
+  top: 50% !important;
+}
+.goals-text {
+  text-align: center;
+}
+.goals-arrow {
+  width: 26px;
+  height: 26px;
+  border: 5px solid var(--unnamed-color-ffffff);
+  border: 5px solid #ffffff;
+  opacity: 1;
+  transform: matrix(0, 1, -1, 0, 0, 0);
+}
+@include mobile {
+  .wrapper {
+    margin-left: 1%;
+    font-size: 10px;
+  }
+  .goalsContent-text {
+    // font-size: 2rem;
+    text-align: left;
+    color: #fff;
+    width: 610px;
+    font: Bold 20px/35px Garamond;
+    letter-spacing: 0px;
+
+    opacity: 1;
+  }
+  .goals-carousal {
+    margin-left: 2%;
+    margin-top: 35%;
+    width: 100px;
+    height: 150px;
+    background: #f45f5f 0% 0% no-repeat padding-box;
+    opacity: 1;
+  }
+  .goals-carousal-num {
+    font: Bold 33px/75px Garamond;
+    margin-left: 10px;
+  }
+  .arrowL-responsive {
+    left: -1% !important;
+    top: 38% !important;
+  }
+  .arrowR-responsive {
+    left: 4% !important;
+    top: 38% !important;
+  }
+}

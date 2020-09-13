@@ -1,0 +1,24 @@
+{
+  "social-media": [
+    {
+      "name": "Facebook",
+      "url": "http://facebook.com/aamctoday",
+      "icon": "facebook-f"
+    },
+    {
+      "name": "Instagram",
+      "url": "http://instagram.com/aamctoday",
+      "icon": "instagram"
+    },
+    {
+      "name": "Twitter",
+      "url": "http://twitter.com/aamctoday",
+      "icon": "twitter"
+    },
+    {
+      "name": "Youtube",
+      "url": "http://youtube.com/user/AAMCvideo",
+      "icon": "youtube"
+    }
+  ]
+}

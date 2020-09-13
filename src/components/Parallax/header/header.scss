@@ -1,0 +1,73 @@
+@import "../../../styles/global.scss";
+
+.parallax-header {
+  background: #fee4c3 0% 0% no-repeat padding-box;
+  box-shadow: none !important;
+  // opacity: 0.9;
+  @include mobile {
+    height: 80px;
+  }
+  @include tablet {
+    height: 80px;
+  }
+  @include desktopsmall {
+    height: 100px;
+  }
+}
+.parallax-header-right {
+  @include mobile {
+    background: #fee4c3 0% 0% no-repeat padding-box;
+    margin: -1px -16px;
+    padding: 20px 7%;
+    // box-shadow: 0px 8px 8px grey;
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.16);
+  }
+  @include tablet {
+    background: #fee4c3 0% 0% no-repeat padding-box;
+    margin: -1px -16px;
+    padding: 20px 7%;
+    // box-shadow: 0px 8px 8px grey;
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.16);
+  }
+  @include desktopsmall {
+    position: absolute;
+    right: 5%;
+    top: 7%;
+    box-shadow: none;
+    padding: 0px;
+  }
+}
+.parallax-header-hamburger {
+  margin-bottom: 50px;
+  @include mobile {
+    margin-bottom: 35px;
+  }
+}
+
+.parallax-header-links li a {
+  color: #5c535c !important;
+  font-weight: 400;
+  height: 32px;
+}
+.parallax-header-links li a:hover {
+  color: orange !important;
+}
+.parallax-header-logo {
+  @include mobile {
+    margin-left: 5%;
+    width: 68px;
+    height: 40x;
+    margin-top: -20px;
+  }
+  @include tablet {
+    margin-left: 5%;
+    width: 68px;
+    height: 40x;
+    margin-top: -20px;
+  }
+  @include desktopsmall {
+    width: 98px;
+    height: 46px;
+    margin-top: -35px;
+  }
+}
